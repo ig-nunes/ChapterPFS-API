@@ -1,5 +1,6 @@
 ﻿using ChapterPFS.Models;
 using ChapterPFS.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,8 @@ namespace ChapterPFS.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+
+    [Authorize]
     public class LivroController : ControllerBase
     {
         private readonly LivroRepository _livroRepository;
@@ -32,7 +35,7 @@ namespace ChapterPFS.Controllers
             }
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -53,7 +56,7 @@ namespace ChapterPFS.Controllers
             }
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Cadastrar(Livro livro)
         {
@@ -71,7 +74,7 @@ namespace ChapterPFS.Controllers
             }
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
@@ -97,7 +100,7 @@ namespace ChapterPFS.Controllers
             }
         }
 
-
+        [Authorize(Roles = "1")]
         [HttpPut("{id}")]
         public IActionResult Alterar(int id, Livro livro)
         {

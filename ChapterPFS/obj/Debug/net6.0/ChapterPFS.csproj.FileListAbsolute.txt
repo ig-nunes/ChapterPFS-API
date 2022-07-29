@@ -57,3 +57,4 @@ C:\Users\inune\Desktop\Programador Full-Stack - Senai\Unidade Curricular 14\Mate
 C:\Users\inune\Desktop\Programador Full-Stack - Senai\Unidade Curricular 14\MaterialWebDB\Chapter\ChapterPFS\ChapterPFS\obj\Debug\net6.0\ChapterPFS.pdb
 C:\Users\inune\Desktop\Programador Full-Stack - Senai\Unidade Curricular 14\MaterialWebDB\Chapter\ChapterPFS\ChapterPFS\obj\Debug\net6.0\ChapterPFS.genruntimeconfig.cache
 C:\Users\inune\Desktop\Programador Full-Stack - Senai\Unidade Curricular 14\MaterialWebDB\Chapter\ChapterPFS\ChapterPFS\obj\Debug\net6.0\ref\ChapterPFS.dll
+C:\Users\inune\Desktop\Programador Full-Stack - Senai\Unidade Curricular 14\MaterialWebDB\Chapter\ChapterPFS\ChapterPFS\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
